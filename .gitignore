@@ -212,3 +212,5 @@ __marimo__/
 *.metadata
 /recordings/
 /outputs/
+data/raw/*/*.vrs
+data/raw/*/*.json
