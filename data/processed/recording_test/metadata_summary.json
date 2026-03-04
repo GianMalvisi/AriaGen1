@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-03-04T15:58:36.133446+00:00",
+  "input_files": {
+    "vrs_path": "..\\data\\raw\\recording_test\\recording_test.vrs",
+    "json_path": "..\\data\\raw\\recording_test\\recording_test.json"
+  },
+  "counts": {
+    "num_streams": 10,
+    "num_modalities": 4
+  },
+  "temporal_status_counts": {
+    "OK": 10
+  },
+  "integrity_status_counts": {
+    "OK": 9,
+    "EMPTY": 1
+  },
+  "rate_coverage": {
+    "with_measured_rate": 8,
+    "with_nominal_rate": 7
+  },
+  "artifacts": {
+    "metadata_summary_json": "..\\data\\processed\\recording_test\\metadata_summary.json",
+    "stream_quality_report_csv": "..\\data\\processed\\recording_test\\stream_quality_report.csv"
+  }
+}
