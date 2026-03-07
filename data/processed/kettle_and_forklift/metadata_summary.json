@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-03-07T13:48:37.691029+00:00",
+  "input_files": {
+    "vrs_path": "..\\data\\raw\\kettle_and_forklift\\kettle_and_forklift_recording.vrs",
+    "json_path": "..\\data\\raw\\kettle_and_forklift\\kettle_and_forklift_recording.json"
+  },
+  "counts": {
+    "num_streams": 11,
+    "num_modalities": 4
+  },
+  "temporal_status_counts": {
+    "OK": 11
+  },
+  "integrity_status_counts": {
+    "OK": 10,
+    "EMPTY": 1
+  },
+  "rate_coverage": {
+    "with_measured_rate": 9,
+    "with_nominal_rate": 9
+  },
+  "artifacts": {
+    "metadata_summary_json": "..\\data\\processed\\kettle_and_forklift\\metadata_summary.json",
+    "stream_quality_report_csv": "..\\data\\processed\\kettle_and_forklift\\stream_quality_report.csv"
+  }
+}
