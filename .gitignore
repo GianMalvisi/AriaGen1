@@ -214,3 +214,11 @@ __marimo__/
 /outputs/
 data/raw/*/*.vrs
 data/raw/*/*.json
+data/raw/*/*.csv
+data/raw/*/*.csv.gz
+
+# Cartelle specifiche di Machine Perception (MPS)
+**/mps_*/
+**/slam/
+**/eye_gaze/
+**/vrs_health_check/
