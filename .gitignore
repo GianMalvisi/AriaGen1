@@ -222,3 +222,6 @@ data/raw/*/*.csv.gz
 **/slam/
 **/eye_gaze/
 **/vrs_health_check/
+
+# Risultati di segmentazione
+**/frames/**
