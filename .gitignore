@@ -223,5 +223,18 @@ data/raw/*/*.csv.gz
 **/eye_gaze/
 **/vrs_health_check/
 
-# Risultati di segmentazione
-**/frames/**
+
+# SAM2 artifacts / heavy outputs
+checkpoints/
+data/outputs/
+**/frames/
+
+# local env / notebook cache
+.venv/
+**/.ipynb_checkpoints/
+
+# third-party clone (se NON vuoi versionarlo come submodule)
+third_party/sam2/
+
+# IDE specific
+.vscode/
