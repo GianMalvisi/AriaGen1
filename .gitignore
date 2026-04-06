@@ -233,8 +233,8 @@ data/outputs/
 .venv/
 **/.ipynb_checkpoints/
 
-# third-party clone (se NON vuoi versionarlo come submodule)
-third_party/sam2/
+# third-party clone
+third_party/**
 
 # IDE specific
 .vscode/
