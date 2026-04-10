@@ -222,3 +222,19 @@ data/raw/*/*.csv.gz
 **/slam/
 **/eye_gaze/
 **/vrs_health_check/
+
+
+# SAM2 artifacts / heavy outputs
+checkpoints/
+data/outputs/
+**/frames/
+
+# local env / notebook cache
+.venv/
+**/.ipynb_checkpoints/
+
+# third-party clone
+third_party/**
+
+# IDE specific
+.vscode/
