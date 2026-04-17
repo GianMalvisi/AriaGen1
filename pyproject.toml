@@ -27,7 +27,8 @@ dependencies = [
     "torch",
     "opencv-python",
     "tqdm",
-    "matplotlib"
+    "matplotlib",
+    "pandas",
 ]
 
 [project.urls]
