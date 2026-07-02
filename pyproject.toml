@@ -5,31 +5,37 @@ build-backend = "hatchling.build"
 [project]
 name = "aria_pylib"
 version = "0.1.0"
-description = "A Python library for working with Project Aria VRS recordings, providing tools for data access, processing, and analysis."
+description = "End-to-end pipeline for gaze-driven segmentation and 3D object reconstruction from Project Aria egocentric recordings."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name="Gianluca Malvisi", email="g.malvisi04@gmail.com" },
+    { name = "Gianluca Malvisi", email = "g.malvisi04@gmail.com" },
 ]
 license = { text = "MIT" }
-keywords = ["projectaria", "vrs", "multistream", "computer-vision"]
+keywords = ["projectaria", "vrs", "egocentric", "segmentation", "nerf", "eye-tracking", "computer-vision"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
 ]
 
-# Core dependencies for the library
 dependencies = [
     "projectaria-tools",
     "numpy",
     "torch",
     "opencv-python",
+    "pandas",
+    "Pillow",
+    "plyfile",
     "tqdm",
     "matplotlib",
-    "pandas",
 ]
+
+[project.optional-dependencies]
+nerfstudio = ["nerfstudio"]
+sam2 = ["segment-anything-2"]
 
 [project.urls]
 "Homepage" = "https://github.com/gianMalvisi/ariagen1"
