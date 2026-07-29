@@ -216,6 +216,7 @@ data/raw/*/*.vrs
 data/raw/*/*.json
 data/raw/*/*.csv
 data/raw/*/*.csv.gz
+data/sa3d
 
 # Cartelle specifiche di Machine Perception (MPS)
 **/mps_*/
