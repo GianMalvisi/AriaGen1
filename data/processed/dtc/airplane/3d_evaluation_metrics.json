@@ -1,0 +1,19 @@
+{
+    "scene_name": "airplane",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.008618,
+            "precision_1cm_pct": 89.88,
+            "recall_1cm_pct": 96.36,
+            "f_score_3d_pct": 93.01,
+            "volumetric_iou_pct": 16.03
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.016146,
+            "precision_1cm_pct": 76.81,
+            "recall_1cm_pct": 68.21,
+            "f_score_3d_pct": 72.26,
+            "volumetric_iou_pct": 18.53
+        }
+    }
+}
