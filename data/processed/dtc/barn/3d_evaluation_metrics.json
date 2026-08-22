@@ -1,0 +1,19 @@
+{
+    "scene_name": "barn",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.026161,
+            "precision_1cm_pct": 57.78,
+            "recall_1cm_pct": 42.01,
+            "f_score_3d_pct": 48.65,
+            "volumetric_iou_pct": 12.78
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.030463,
+            "precision_1cm_pct": 64.18,
+            "recall_1cm_pct": 46.14,
+            "f_score_3d_pct": 53.68,
+            "volumetric_iou_pct": 3.35
+        }
+    }
+}
