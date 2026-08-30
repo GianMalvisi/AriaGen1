@@ -6,14 +6,14 @@
             "precision_1cm_pct": 95.62,
             "recall_1cm_pct": 72.68,
             "f_score_3d_pct": 82.58,
-            "volumetric_iou_pct": 12.66
+            "volumetric_iou_pct": 54.87
         },
         "SA3D": {
             "chamfer_distance_m": 0.028312,
             "precision_1cm_pct": 40.26,
             "recall_1cm_pct": 52.42,
             "f_score_3d_pct": 45.54,
-            "volumetric_iou_pct": 10.49
+            "volumetric_iou_pct": 18.92
         }
     }
 }
