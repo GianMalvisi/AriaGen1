@@ -1,0 +1,19 @@
+{
+    "scene_name": "duck",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.010111,
+            "precision_1cm_pct": 90.62,
+            "recall_1cm_pct": 87.66,
+            "f_score_3d_pct": 89.11,
+            "volumetric_iou_pct": 46.23
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.014661,
+            "precision_1cm_pct": 72.48,
+            "recall_1cm_pct": 73.55,
+            "f_score_3d_pct": 73.01,
+            "volumetric_iou_pct": 35.23
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "scene_name": "gnome",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.006166,
+            "precision_1cm_pct": 97.25,
+            "recall_1cm_pct": 90.97,
+            "f_score_3d_pct": 94.01,
+            "volumetric_iou_pct": 64.58
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.017292,
+            "precision_1cm_pct": 85.54,
+            "recall_1cm_pct": 61.27,
+            "f_score_3d_pct": 71.4,
+            "volumetric_iou_pct": 32.41
+        }
+    }
+}

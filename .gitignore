@@ -217,6 +217,7 @@ data/raw/*/*.json
 data/raw/*/*.csv
 data/raw/*/*.csv.gz
 data/sa3d
+data/dtc
 
 # Cartelle specifiche di Machine Perception (MPS)
 **/mps_*/
@@ -232,10 +233,14 @@ data/outputs/
 
 # local env / notebook cache
 .venv/
+sa3d_env/
 **/.ipynb_checkpoints/
 
 # third-party clone
-third_party/**
+third_party/**/**
+third_party/SegmentAnythingin3D/lib/seg_dcvgo.py
 
 # IDE specific
 .vscode/
+
+.bat

@@ -1,0 +1,19 @@
+{
+    "scene_name": "dumbbell",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.009933,
+            "precision_1cm_pct": 87.75,
+            "recall_1cm_pct": 88.38,
+            "f_score_3d_pct": 88.06,
+            "volumetric_iou_pct": 48.74
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.025364,
+            "precision_1cm_pct": 72.09,
+            "recall_1cm_pct": 51.47,
+            "f_score_3d_pct": 60.06,
+            "volumetric_iou_pct": 26.36
+        }
+    }
+}

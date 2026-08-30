@@ -1,0 +1,19 @@
+{
+    "scene_name": "banana",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.006911,
+            "precision_1cm_pct": 98.37,
+            "recall_1cm_pct": 85.06,
+            "f_score_3d_pct": 91.23,
+            "volumetric_iou_pct": 56.62
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.010926,
+            "precision_1cm_pct": 86.22,
+            "recall_1cm_pct": 81.11,
+            "f_score_3d_pct": 83.59,
+            "volumetric_iou_pct": 41.97
+        }
+    }
+}
