@@ -1,0 +1,19 @@
+{
+    "scene_name": "mug",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.019439,
+            "precision_1cm_pct": 68.04,
+            "recall_1cm_pct": 48.53,
+            "f_score_3d_pct": 56.65,
+            "volumetric_iou_pct": 26.38
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.014045,
+            "precision_1cm_pct": 83.36,
+            "recall_1cm_pct": 68.12,
+            "f_score_3d_pct": 74.97,
+            "volumetric_iou_pct": 36.05
+        }
+    }
+}

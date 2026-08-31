@@ -1,0 +1,19 @@
+{
+    "scene_name": "vase",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.013469,
+            "precision_1cm_pct": 88.72,
+            "recall_1cm_pct": 69.81,
+            "f_score_3d_pct": 78.14,
+            "volumetric_iou_pct": 41.68
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.01286,
+            "precision_1cm_pct": 78.37,
+            "recall_1cm_pct": 89.38,
+            "f_score_3d_pct": 83.52,
+            "volumetric_iou_pct": 41.08
+        }
+    }
+}
