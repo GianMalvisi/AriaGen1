@@ -1,0 +1,19 @@
+{
+    "scene_name": "gargoyle",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.006541,
+            "precision_1cm_pct": 99.23,
+            "recall_1cm_pct": 95.06,
+            "f_score_3d_pct": 97.1,
+            "volumetric_iou_pct": 63.8
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.026053,
+            "precision_1cm_pct": 54.44,
+            "recall_1cm_pct": 50.06,
+            "f_score_3d_pct": 52.16,
+            "volumetric_iou_pct": 21.22
+        }
+    }
+}
