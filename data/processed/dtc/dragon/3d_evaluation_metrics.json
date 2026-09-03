@@ -1,0 +1,19 @@
+{
+    "scene_name": "dragon",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.007397,
+            "precision_1cm_pct": 93.68,
+            "recall_1cm_pct": 90.16,
+            "f_score_3d_pct": 91.88,
+            "volumetric_iou_pct": 58.29
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.026599,
+            "precision_1cm_pct": 62.84,
+            "recall_1cm_pct": 46.75,
+            "f_score_3d_pct": 53.61,
+            "volumetric_iou_pct": 21.49
+        }
+    }
+}
