@@ -1,0 +1,19 @@
+{
+    "scene_name": "spoon",
+    "metrics": {
+        "SAM2_NeRF": {
+            "chamfer_distance_m": 0.007692,
+            "precision_1cm_pct": 95.33,
+            "recall_1cm_pct": 93.2,
+            "f_score_3d_pct": 94.25,
+            "volumetric_iou_pct": 50.85
+        },
+        "SA3D": {
+            "chamfer_distance_m": 0.012498,
+            "precision_1cm_pct": 82.94,
+            "recall_1cm_pct": 80.93,
+            "f_score_3d_pct": 81.92,
+            "volumetric_iou_pct": 43.6
+        }
+    }
+}
